@@ -1,0 +1,438 @@
+/* For Whole Project */
+* {
+  margin: 0;
+  padding: 0;
+  padding-right: 0;
+}
+
+.center {
+  text-align: -webkit-center !important;
+}
+
+.icon50 {
+  font-size: 100px !important;
+}
+
+.colorWhite {
+  color: #fff;
+}
+
+.colorBlue {
+  color: #259ac4 !important;
+}
+/* For Home Page Style */
+.lang-bar {
+  justify-content: flex-end;
+  float: right;
+}
+
+.HomepageBannerStyle {
+  height: 400px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.HomePageReviewStyle {
+  height: auto;
+  width: 100%;
+  background-color: #259ac4;
+  padding: 100px 0px;
+}
+
+.popularServicesHeading {
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.popularServicesCardStyle {
+  margin-bottom: 50px;
+}
+
+.WhyUsHeadingStyle {
+  margin-bottom: 50px;
+  font-family: "Rubik", sans-serif;
+}
+
+.WhyUsCardStyle {
+  margin-bottom: 100px;
+}
+
+.whyUsIcon {
+  margin: 20px 0px !important;
+}
+
+.socialMediaHandlesStyles {
+  background-color: #259ac4;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  color: #fff;
+  margin: 50px 10px;
+}
+
+.socialMediaHandlesStyles:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Service Page Styles */
+.ServicePageBannerStyle {
+  height: 250px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.width80 {
+  width: 80%;
+}
+
+.width100 {
+  width: 100%;
+  margin-bottom: 20px !important;
+}
+
+.ContactUsCardHeading {
+  text-align: center;
+  margin: 20px 0px 20px;
+  font-family: "Roboto";
+  font-size: 33px;
+  padding-bottom: 20px;
+}
+.idk {
+  box-shadow: inset -3px -3px 10px #eee;
+  border-radius: 15px;
+}
+
+.footerContentStyle {
+  color: #fff !important;
+}
+
+.heading {
+  padding-top: 35px;
+  padding-bottom: 15px;
+}
+.content {
+  word-spacing: 2px;
+}
+.contentfinal {
+  padding-bottom: 50px;
+  width: 58%;
+}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  /* .navbar .nav-item:hover .nav-link{   } */
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}
+@media all and (min-width: 600px) {
+  .tamil {
+    display: none;
+  }
+}
+/* ============ desktop view .end// ============ */
+
+/* ============ Special Styles for Material UI: Start =========== */
+
+.MuiStepIcon-root.MuiStepIcon-active {
+  color: #259ac4 !important;
+}
+
+.MuiStepIcon-root.MuiStepIcon-completed {
+  color: #259ac4 !important;
+}
+
+.MuiAvatar-root {
+  width: 100px !important;
+  height: 100px !important;
+  font-size: 50px !important;
+  background-color: rgb(238, 101, 51) !important;
+}
+
+/* ============ Special Styles for Material UI: End=========== */
+
+/* ===== Responsive Design: Start ======= */
+
+@media (max-width: 960px) {
+  .footerContentStyle {
+    text-align: center;
+  }
+}
+
+/* ===== Responsive Design: Start ======= */
+
+/* ============ Much Needed Padding and Margin: Start =========== */
+
+.p10 {
+  padding: 10px !important;
+}
+
+.p20 {
+  padding: 20px !important;
+}
+
+.pTopBottom10 {
+  padding: 10px 0px !important;
+}
+
+.pTopBottom20 {
+  padding: 20px 0px !important;
+}
+
+.pTop10 {
+  padding-top: 10px !important;
+}
+
+.pBottom10 {
+  padding-bottom: 10px !important;
+}
+
+.pTop20 {
+  padding-top: 20px !important;
+}
+
+.pBottom20 {
+  padding-bottom: 20px !important;
+}
+
+.m10 {
+  margin: 10px !important;
+}
+
+.m20 {
+  margin: 20px !important;
+}
+
+.mTopBottom10 {
+  margin: 10px 0px !important;
+}
+
+.mTopBottom20 {
+  margin: 20px 0px !important;
+}
+
+.mTop10 {
+  margin-top: 10px !important;
+}
+
+.mBottom10 {
+  margin-bottom: 10px !important;
+}
+
+.mTop20 {
+  margin-top: 20px !important;
+}
+
+.mBottom20 {
+  margin-bottom: 20px !important;
+}
+
+.lh1p6 {
+  line-height: 1.6 !important;
+  word-spacing: 2px !important;
+}
+
+/* ============ Much Needed Padding and Margin: End =========== */
+
+/* .MuiSvgIcon-root {
+  background-color: #259AC4;
+} */
+
+/*test*/
+
+/* .cuname {
+  padding-bottom: 20px;
+} */
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-bottom: 25px;
+}
+.links-service {
+  padding: 44px 10px 10px 59px;
+}
+li {
+  text-align: justify;
+}
+
+.container:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: url("img/bg.jpg") no-repeat center;
+  background-size: cover;
+  filter: blur(50px);
+  z-index: -1;
+}
+.contact-box {
+  max-width: 850px;
+  display: block;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+}
+
+.right {
+  padding: 25px 40px;
+}
+
+h2 {
+  position: relative;
+  padding: 0 0 10px;
+  margin-bottom: 10px;
+}
+
+h2:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 50px;
+  border-radius: 2px;
+  background-color: #2ecc71;
+}
+
+.field {
+  width: 100%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  outline: none;
+  background-color: rgba(230, 230, 230, 0.6);
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  transition: 0.3s;
+}
+
+.field:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  min-height: 150px;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: #2ecc71;
+  color: #fff;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #27ae60;
+}
+
+.field:focus {
+  border: 2px solid rgba(30, 85, 250, 0.47);
+  background-color: #fff;
+}
+
+.navbar1 {
+  position: relative;
+  left: 119px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 880px) {
+  .contact-box {
+    grid-template-columns: 1fr;
+  }
+  .left {
+    height: 200px;
+  }
+}
+
+.buttonFix {
+  position: relative;
+  left: 76rem;
+  top: 3rem;
+}
+
+/* .Carousel-indicator-8 {
+  display: none !important;
+}
+.Carousel-indicator-4 {
+  display: none !important;
+} */
+.phone {
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 36px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.cta {
+  height: 50px;
+  width: 180px;
+  color: white;
+  z-index: 1;
+  transition: 1.2s;
+  background: linear-gradient(to right bottom, #4776e6, #8e54e9);
+}
+
+.number {
+  height: 50px;
+  width: 180px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://images.unsplash.com/photo-1529044728228-9917df974897?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+  background-size: cover;
+  color: white;
+  box-shadow: 3px 3px 30px #aaa;
+}
+
+.cta:hover {
+  transform: translateX(-90%);
+  transition: 1.2s;
+}
+
+.how-we-work {
+  padding: 47px 20px 22px;
+  background-size: cover;
+  font-size: larger;
+  z-index: 1;
+  overflow: hidden;
+  /* opacity: 0.6; */
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?cs=srgb&dl=pexels-fwstudio-129731.jpg&fm=jpg);
+}
+
+.howeworktext {
+  font-weight: "bolder" !important;
+}
